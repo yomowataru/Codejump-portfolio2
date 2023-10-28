@@ -44,6 +44,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 a {
@@ -161,7 +162,33 @@ a:hover {
 } */
 
 .group4 {
+  background-color: rgb(44, 44, 44);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100nh;
+  margin-bottom: 0;
+}
 
+.group4 div {
+  width: 30%;
+  color: white;
+  padding: 50px;
+}
+
+li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+footer {
+  text-align: center;
+  height: 100px;
+}
+
+footer p {
+  line-height: 100px;
 }
 
 /* レスポンシブ
@@ -173,6 +200,16 @@ a:hover {
 
   .image-box {
     max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .text-box {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .group4 div {
+    width: 100%;
   }
  
 }
